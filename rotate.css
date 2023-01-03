@@ -1,0 +1,232 @@
+body {
+    background-color: grey;
+}
+
+.topo {
+    width: 90%;
+    height: 120px;
+    margin-left: 5%;
+    background-color: bisque;
+    float: left;
+    clear: both;
+}
+
+.logo {
+width: 40%;
+height: 120px;
+background-color: black;
+background-image: linear-gradient(90, black, grey);
+float: left;
+
+
+}
+
+.logo img{
+    width: 40%;
+    height: 113px;
+    float: left;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.logo p{
+color:rgb(13, 245, 245);
+font-size: 40px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+margin-top: 5px;
+}
+
+.login {
+    width: 60%;
+    height: 120px;
+    background-color: black;
+    float: left;
+}
+
+.login form{
+margin-top: 5%;
+}
+
+.email{
+    width: 40%;
+    height: 35px;
+}
+
+.senha{
+    width: 40%;
+    height: 35px;
+}
+
+.botao{
+    width: 15%;
+    height: 40px;
+}
+
+.banner{
+    width: 100%;
+    height: 280px;
+    background-color: aqua;
+    clear: both;
+    float: left;
+}
+
+.banner img{
+    width: 100%;
+    height: 280px;
+    filter: brightness(150%);
+}
+
+
+.animation {
+    border-radius: 100%;
+    border: 5px solid rgb(62, 79, 103); 
+    border-bottom-style: 0.2;
+    border-left-color: rgb(13, 245, 245); 
+    border-right-color: rgb(13, 245, 245);
+    height: 120px;
+    width: 120px;
+    margin-left: 45.2%;
+    margin-top: -205px;
+    float: left;
+    }
+    
+.is-animation{
+    animation: loading ;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-name: loading;
+    animation-timing-function: linear;
+
+
+}
+
+    @-webkit-keyframes loading{
+0% {
+    transform: rotate(0);
+}
+100%{
+    transform: rotate(360deg);
+}
+    }
+
+    .animation1 img{
+        border-radius: 100%;
+        height: 300px;
+        width: 300px;
+        }
+        .animation1{
+            border-radius: 100%;
+            border: 6px solid black; 
+            border-left-color: rgb(13, 245, 245); 
+            border-right-color: rgb(13, 245, 245);
+            filter: brightness(520%);
+            filter: contrast(160%);
+            height: 160px;
+            width: 160px;
+            float: left;
+            margin-left: 43.8%;
+            margin-top: -230px;
+        
+
+
+        }
+        
+    .is-animation1{
+        animation: loading1 ;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+        animation-name: loading1;
+        animation-timing-function: linear;
+    
+    
+    }
+    
+        @-webkit-keyframes loading1{
+    0% {
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+        }
+
+.animation2 {
+    border-radius: 100%;
+    border: 5px solid rgb(30, 48, 64);
+    border-bottom-style: 0.2;
+    border-left-color: rgb(13, 245, 245);
+    border-right-color: rgb(13, 245, 245);
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: -370px;
+    margin-left: 80PX;    
+}
+.is-animation2{
+    animation: loading;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-name: loading;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes loading{
+0%{
+    transform: rotate(0);
+}
+100%{
+    transform: rotate(360deg);
+}
+}
+
+.menu{
+    width: 89.7%;
+    height: 100px;
+    background-color: blue;
+    background-image: linear-gradient(to left, rgb(95, 158, 160), rgb(88, 107, 105) 80% );
+    margin-left: 5%;
+    margin-top: 280px;
+    float: left;
+    border: solid black;
+}
+
+.P1{
+    width: 22.2%;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin-left: 5%;
+    border: solid black;
+
+}
+.P2 {
+    width: 22.2%;
+    height: 200px;
+    background-color: white;
+    float: left;
+    border: solid black ;
+}
+.P3{
+    width: 22.2%;
+    height: 200px;
+    background-color: white;
+    float: left;
+    border: solid black;
+}
+.P4 {
+    width: 22.2%;
+    height: 200px;
+    background-color: white;
+    float: left;
+    border: solid black;
+}
+
+.P1 img{
+    width: 300px;
+    height: 180px;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    opacity: 0.7;
+}
